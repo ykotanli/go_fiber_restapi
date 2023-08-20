@@ -4,8 +4,8 @@ import (
 	"net/http"
 
 	"github.com/gofiber/fiber/v2"
-	"github.com/ykotani/models"
-	"github.com/ykotani/services"
+	"github.com/ykotanli/models"
+	"github.com/ykotanli/services"
 )
 
 type TodoHandler struct {

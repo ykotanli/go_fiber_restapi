@@ -4,10 +4,10 @@ import (
 	"github.com/gofiber/fiber/v2"
 	"github.com/gofiber/fiber/v2/middleware/logger"
 	"github.com/gofiber/fiber/v2/middleware/requestid"
-	"github.com/ykotani/app"
-	"github.com/ykotani/configs"
-	"github.com/ykotani/repository"
-	"github.com/ykotani/services"
+	"github.com/ykotanli/app"
+	"github.com/ykotanli/configs"
+	"github.com/ykotanli/repository"
+	"github.com/ykotanli/services"
 )
 
 func main() {

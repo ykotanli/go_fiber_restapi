@@ -6,7 +6,7 @@ import (
 	"log"
 	"time"
 
-	"github.com/ykotani/models"
+	"github.com/ykotanli/models"
 	"go.mongodb.org/mongo-driver/bson"
 	"go.mongodb.org/mongo-driver/bson/primitive"
 	"go.mongodb.org/mongo-driver/mongo"
