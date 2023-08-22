@@ -14,9 +14,9 @@ var mockRepo *repository.MockTodoRepository
 var service TodoService
 
 var FakeData = []models.Todo{
-	{primitive.NewObjectID(), "Test1", "content 1"},
-	{primitive.NewObjectID(), "Test2", "content 2"},
-	{primitive.NewObjectID(), "Test3", "content 3"},
+	{Id: primitive.NewObjectID(), Title: "Test1", Content: "content 1"},
+	{Id: primitive.NewObjectID(), Title: "Test2", Content: "content 2"},
+	{Id: primitive.NewObjectID(), Title: "Test3", Content: "content 3"},
 }
 
 func setup(t *testing.T) func() {
