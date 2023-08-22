@@ -12,6 +12,8 @@ import (
 	"go.mongodb.org/mongo-driver/mongo"
 )
 
+//go:generate mockgen -destination ../mocks/repository/mockTodoRepository.go -package repository github.com/ykotanli/repository TodoRepository
+
 type TodoRepositoryDB struct {
 	TodoCollection *mongo.Collection
 }

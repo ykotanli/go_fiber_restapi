@@ -6,8 +6,6 @@ import (
 	"github.com/ykotanli/repository"
 )
 
-//go:generate mockgen -destination ../mocks/service/mockTodoService.go -package service github.com/ykotani/services TodoService
-
 type DefaultTodoService struct {
 	Repo repository.TodoRepository
 }
