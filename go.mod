@@ -1,4 +1,4 @@
-module github.com/ykotanli
+module github.com/ykotanli/go_fiber_restapi
 
 go 1.21.0
 
